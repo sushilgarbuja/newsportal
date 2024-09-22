@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mukta", sans-serif;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/* Styling the container and navbar */
+.navbar {
+  background-color: #333; /* Background color for the navbar */
+  padding: 10px 0;
+}
+
+.navbar-menu ul {
+  list-style: none; /* Remove default list style */
+  display: flex; /* Align items in a row */
+  justify-content: center; /* Center the menu */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu ul li {
+  margin: 0 3px; /* Spacing between the menu items */
+}
+
+.navbar-menu ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Text color for links */
+  font-size: 20px;
+  padding: 8px 16px; /* Padding inside each link */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-menu ul li a:hover {
+  background-color: #555; /* Darker background on hover */
+  color: #fff; /* Text color on hover */ /* Rounded corners */
+}
+
+.add img {
+  width: 100%;
+}
+.latest {
+  border: 1px solid #ddd;
+  padding: 30px 10px;
+}
+.latest h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.latest h3 a,
+h4 a {
+  text-decoration: none;
+  color: #333;
+  list-style: none;
+}
+
+.text p {
+  font-size: 18px;
+  text-align: justify;
+  margin: 15px 0;
+  padding: 0px 50px;
+}
+
+.read-more a {
+  font-size: 15px;
+  text-decoration: none;
+}
+.news-title {
+  border-bottom: 1px solid #737373;
+}
+.news-title h4 {
+  position: relative;
+  display: inline-block;
+}
+.news-title h4::after {
+  content: ""; /* This is necessary for the ::after element to be displayed */
+  position: absolute;
+  left: 0;
+  bottom: -10px; /* Adjust the position to fit below the text */
+  width: 100px; /* The length of the line */
+  border-bottom: 4px solid #2c5baf; /* The line under the title */
+}
+.cat-image img {
+  width: 100%;
+}
+.content-dec {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #737373;
+}
+.right-item {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #737373;
+}
+.footer-section {
+  background: #333333;
+}
+.footer-section {
+  color: #fff;
+}
+.about-section a {
+  text-decoration: none;
+  list-style: none;
+
+  color: #fff;
+}
