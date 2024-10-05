@@ -108,3 +108,21 @@ h4 a {
 
   color: #fff;
 }
+
+/* card image */
+.card-image {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+.card-image img:hover {
+  transform: scale(1.1);
+}
